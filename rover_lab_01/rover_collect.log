@@ -1,0 +1,185 @@
+2024-03-19 16:24:47,148 [MainThread  ] [ERROR]  Unexpected error while streaming.
+Traceback (most recent call last):
+  File "/home/usafa/usafa_472/rover_lab_01/rs_rover_collect.py", line 104, in collect_data
+    append_data(data, frm_num, ardu_file)
+  File "/home/usafa/usafa_472/rover_lab_01/rs_rover_collect.py", line 27, in append_data
+    csv.DictWriter(data_file,  fieldnames=field_names).writerow(data_dict)
+  File "/usr/lib/python3.8/csv.py", line 139, in __init__
+    self.writer = writer(f, dialect, *args, **kwds)
+TypeError: argument 1 must have a "write" method
+2024-03-20 11:01:29,959 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "/home/usafa/usafa_472/rover_lab_01/rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-20 11:01:45,375 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "/home/usafa/usafa_472/rover_lab_01/rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-20 11:01:45,379 [Thread-1    ] [WARNI]  Link timeout, no heartbeat in last 5 seconds
+2024-03-20 11:02:00,648 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "/home/usafa/usafa_472/rover_lab_01/rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-20 11:02:15,926 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "/home/usafa/usafa_472/rover_lab_01/rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-20 11:02:31,191 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "/home/usafa/usafa_472/rover_lab_01/rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-20 11:05:14,013 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "/home/usafa/usafa_472/rover_lab_01/rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-20 11:05:29,289 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "/home/usafa/usafa_472/rover_lab_01/rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-20 11:05:44,575 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "/home/usafa/usafa_472/rover_lab_01/rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 10:49:08,003 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 10:50:05,047 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 10:58:14,035 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 10:59:11,084 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:00:08,142 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:01:05,224 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:02:06,353 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:03:03,433 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:04:00,503 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:04:53,497 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:06:07,079 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:07:04,358 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:07:04,377 [Thread-1    ] [ERROR]  Exception in MAVLink input loop
+Traceback (most recent call last):
+  File "/home/usafa/.local/lib/python3.8/site-packages/dronekit/mavlink.py", line 211, in mavlink_thread_in
+    fn(self)
+  File "/home/usafa/.local/lib/python3.8/site-packages/dronekit/__init__.py", line 1370, in listener
+    raise APIException('No heartbeat in %s seconds, aborting.' %
+dronekit.APIException: No heartbeat in 30 seconds, aborting.
+2024-03-22 11:08:01,591 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:08:58,938 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:09:56,242 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:10:53,510 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:12:11,014 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-03-22 11:13:08,134 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-04-02 11:07:04,692 [Thread-1    ] [WARNI]  Link timeout, no heartbeat in last 5 seconds
+2024-04-02 11:07:04,693 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-04-02 11:07:20,112 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-04-02 11:07:35,367 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-04-02 11:07:50,620 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-04-02 11:08:05,877 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-04-02 11:08:21,152 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect.py", line 72, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-04-04 10:37:17,359 [MainThread  ] [ERROR]  Unexpected error.
+Traceback (most recent call last):
+  File "rs_rover_collect_wheatley.py", line 68, in collect_data
+    pipeline.start(config)
+RuntimeError: No device connected
+2024-04-04 10:49:08,297 [Thread-1    ] [WARNI]  EKF2 IMU1 ground mag anomaly, yaw re-aligned
+2024-04-04 10:49:08,598 [Thread-1    ] [WARNI]  EKF2 IMU0 ground mag anomaly, yaw re-aligned
